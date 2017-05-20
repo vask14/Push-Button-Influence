@@ -6,7 +6,7 @@
     <title>CSS practice</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel ="stylesheet" href ="styles.css">
+    <link rel ="stylesheet" href ="css/styles.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/bootstrap.js"></script>
   </head>
@@ -39,32 +39,36 @@
            </div>
            <!-- Top Bar:End -->
            <!-- Header Banner:Begin -->
-                <div class = "jumbotron">
-                    <div class = "container">
-                        <div class = "row">
-                            <div class= "col-md-12">
-                                <h1>Get Your Head Start Here!</h1>
-                                <p>Download Your 2016 New MEDIA INFLUENCER <br/> Glossary of Terms at $0 <br/> <br/>(It will sell for $47 soon!)</p>
-                                <p>
-                                    <a class = "btn btn-primary btn-md" href = "#">
-                                        <span class = "btn-get">Get Free Instant Access Here</span>
-                                    </a>
-                                </p> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class = "banner">
+              <div class ="banner-content container">
+                  <div class = "jumbotron">
+                      <h2>Get Your Head Start Here!</h2>
+                      <p>
+                          Download Yout 2016 NEW MEDIA INFLUENCER 
+
+                          <br/>
+                          Glossary of Terms at $0
+                          <br>
+                          <br>
+                          (It will sell for $47 soon!)
+                      </p>
+                      <p>
+                          <button type="button" class ="header-btn">Get Free Instant Access Here</button>
+                      </p>
+                  </div>
+              </div>
+          </div>
+    
            <!-- Header Banner:End -->
        </div>
        </header>
        <!-- Header Block: End -->
        <!-- Aside Block: Begin -->
-       <div class= "container-fluid">
+       <div class= "container">
            <aside class = "media">
-               <div class = "container">
                <div class = "row">
-                       <div class = "media-sources col-md 12">
-                       <span>
+                       <div class = "media-sources col-md 1">
+                       <span href = "#">
                            <img src = "img/seen.jpg" alt = "seen">
                        </span>
                        <a href = "#">
@@ -88,8 +92,7 @@
                        <a href = "#">
                            <img src = "img/nbc.jpg" alt = "nbc">
                        </a>
-                   </div>
-               </div>
+                     </div>
                </div>
            </aside>
        </div>
@@ -200,70 +203,77 @@
                <div class = "container">
                    <div class = "epsd page-header">
                        <h2 class ="watch">Watch and Listen <span class= "media">To Our Latest Episodes </span>(Below):</h2>
-                   </div>
-                   <div class ="page-episodes">
-                       <div class = "images row">
-                           <div class= "influencer-1 col-md-3">
+                   </div>   
+                                   
+                   <div class = "page-episodes row">
+                       <article class = "page-item col-md-3">
+                           <div class ="page-img">
+                               <img src = "img/Mike-Dillard_232x162.png" alt = "mike">
+                           </div>
+                           <div class ="page-article">
+                               <h3>
+                                   <a href="#">PBI 014: Using Attraction Marketing Strategies to Grow Your Business with Mike Dillard</a>
+                               </h3>
+                               <p>Mike Dillard, Using Attraction<br>Marketing Strategies to Grow Your Business<br>
                                <a href = "#">
-                               <img src = "img/Mike-Dillard_232x162.png" alt = "mike"></a>
+                                   <span class= "more">read more</span>
+                               </a>
+                               </p>
                            </div>
-                           <div class = "influencer-2 col-md-3">
+                       </article>
+                       <article class = "page-item col-md-3">
+                           <div class ="page-img">
+                               <img src = "img/mikekoenigs_232x162.png" alt = "mike">
+                           </div>
+                           <div class ="page-article">
+                               <h3>
+                                   <a href="#">PBI 013: The Power of Hosting a WebTV Show (Even If You Have A Face For Radio) with Mike Koenigs</a>
+                               </h3>
+                               <p>Mike Koenigs, The Power of Hosting A WebTV Show (Even If You Have A Face For Radio)<br>
                                <a href = "#">
-                                   <img src = "img/mikekoenigs_232x162.png" alt = "mike">
+                                   <span class = "more">read more</span>
                                </a>
+                               </p>
                            </div>
-                           <div class = "influencer-3 col-md-3">
+                       </article>
+                       <article class = "page-item col-md-3">
+                           <div class ="page-img">
+                               <img src = "img/jamesschramko_232x162.png" alt = "mike">
+                           </div>
+                           <div class ="page-article">
+                               <h3>
+                                   <a href="#">PBI 012: Internet Marketing Strategies for Sustainable Recurring Income with James Schramko</a>
+                               </h3>
+                               <p>Jeff Wenberg, LeadPages Head Product Educator discusses business, online marketing, and the internet revolution<br/>
                                <a href = "#">
-                                   <img src = "img/jamesschramko_232x162.png" alt = "james">
+                                   <span class = "more">read more</span>
                                </a>
+                               </p>
+                               
                            </div>
-                           <div class = "influencer-4 col-md-3">
-                               <a href = '#'>
-                                   <img src = "img/JeffWenberg_232x162.png" alt = "Jeff">
+                       </article>
+                       <article class = "page-item col-md-3">
+                           <div class ="page-img">
+                               <img src = "img/JeffWenberg_232x162.png" alt = "mike">
+                           </div>
+                           <div class ="page-article">
+                               <h3>
+                                   <a href="#">PBI 011: LeadPages And The Internet Revolution With Jeff Wenberg</a>
+                               </h3>
+                               <p>Mike Dillard, Using Attraction Marketing Strategies to Grow Your Business<br/>
+                               <a href = "#">
+                                   <span class = "more">read more</span>
                                </a>
+                               </p>
+                             
                            </div>
-                       </div>
-                       <div class = "articles row">
-                           <article class ="episode-influence">
-                               <div class = "infl col-md-3">
-                                   <a href = "#">
-                                       <h3>PBI 014:Using Attraction Marketing Strategies to Grow Yout Business with Mike Dillard</h3>
-                                    </a>
-                                       <p>Mike Dillard,Using Attraction<br/> Marketing Strategies to Grow Your Business.<br/> <a href = "#"> <span class = "more">read more</span></a>
-                                       </p>
-                               </div>
-                           </article>
-                           <article class = "episode-influence">
-                               <div class ="infl col-md-3">
-                                   <a href = "#">
-                                       <h3>PBI 013: The Power of Hosting a WebTV Show (Even If You Have A Face For Radio) with Mike Koenigs</h3>
-                                   </a>
-                                   <p>Mike Koenigs, The Power of Hosting A WebTV Show (Even If You Have A Face For Radio).<br/> <a href = "#"> <span class = "more">read more</span></a></p>
-                               </div>
-                           </article>
-                           <article class = "episode-influence">
-                               <div class = "infl col-md-3">
-                                   <a href = '#'>
-                                       <h3>PBI 012: Internet Marketing Strategies for Sustainable Recurring Income with James Schramko</h3>
-                                   </a>
-                                   <p>James Schramko, Internet Marketing Strategies for Sustainable Recurring Income<br/><a href = "#"><span class = "more">read more</span></a></p>
-                               </div>
-                           </article>
-                           <article class = "episode-influence">
-                               <div class = "infl col-md-3">
-                                   <a href = "#">
-                                       <h3>PBI 011: LeadPages And The Internet Revolution With Jeff Wenberg</h3>
-                                   </a>
-                                   <p>Jeff Wenberg, LeadPages Head Product Educator discusses business, online marketing, and the internet revolution<br/><a href = "#"><span class = "more">read more</span></a></p>
-                               </div>
-                           </article>
-                       </div>
+                       </article>
                    </div>
                     <div class = "button">
                                <p>
                                <button type="button" class="btn">More Episodes</button>
                                </p>
-                           </div>
+                     </div>
                </div>
            </section>
            <!-- Episodes Block:End -->
